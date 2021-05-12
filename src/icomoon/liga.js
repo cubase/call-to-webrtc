@@ -25,6 +25,7 @@
     var icons;
     if (!supportsProperty('fontFeatureSettings')) {
         icons = {
+            'close': '&#xe900;',
             'time': '&#xe902;',
             'calendar': '&#xe903;',
             'phone_hangup': '&#xe906;',

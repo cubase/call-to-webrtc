@@ -23,7 +23,7 @@ const bubbleLayoutStyles: ThemedStyleFunction = ({ position }) => css`
   border-radius: 12px;
   cursor: default;
 
-  & > .icon-close {
+  & > i.icon {
     position: absolute;
     top: 0.5em;
     right: 0.5em;
@@ -80,9 +80,9 @@ const BubbleLayout = ({
           IPEX a.s.
         </a>
       </Flex>
-      <span className="icon-close" id="close" title="Zavřít" onClick={onClose}>
-        &#10005;
-      </span>
+      <i className="icon" id="ctc-close" title="Zavřít" onClick={onClose}>
+        close
+      </i>
     </div>
   )
 }
